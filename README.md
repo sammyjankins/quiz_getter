@@ -11,7 +11,9 @@ git clone https://github.com/sammyjankins/quiz_getter.git
 ```
 cd your-repo
 ```
-3. Build and start the containers:
+3. Fill the .env file with actual data if necessary.
+
+4. Build and start the containers:
 
 ```
 docker-compose up -d
@@ -20,7 +22,7 @@ Console messages example:
 
 ![image](https://github.com/sammyjankins/quiz_getter/assets/26933434/b46f2f98-a647-4422-937b-0a30c9fdf4f5)
 
-4. Check that the containers are running:
+5. Check that the containers are running:
 
 ```
 docker-compose ps
@@ -29,7 +31,7 @@ Console messages example:
 
 ![image](https://github.com/sammyjankins/quiz_getter/assets/26933434/b0a5903d-57f6-42a6-871d-cbbafc0bc38a)
 
-5. Send a POST request to the address http://localhost:8000/quiz specifying the number of questions in the parameters.
+6. Send a POST request to the address http://localhost:8000/quiz specifying the number of questions in the parameters.
 
 Example request URL to the POST API service:
 ```
