@@ -25,7 +25,7 @@ Console messages example:
 5. Check that the containers are running:
 
 ```
-docker-compose ps
+docker ps
 ```
 Console messages example:
 
